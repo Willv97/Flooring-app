@@ -17,8 +17,8 @@ header {
 }
 
 .hero {
-    background: url(carpet-img.jpg) no-repeat center center/cover;
-    height: 200px;
+    background-image: url(images/theBobs2.jpg), url(images/planksInstall.jpg);
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
