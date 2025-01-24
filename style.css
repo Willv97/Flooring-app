@@ -36,6 +36,12 @@ header {
     padding: 40px;
 }
 
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
 .gallery-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
