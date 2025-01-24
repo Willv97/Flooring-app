@@ -14,6 +14,12 @@ header {
     background: #333;
     color: white;
     padding: 22px;
+    min-height: 80px;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin-inline: auto;
 }
 
 .hero {
@@ -30,9 +36,20 @@ header {
     padding: 40px;
 }
 
+.gallery-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+   
+}
 .contact {
     background: #333;
     color: white;
     padding: 10px;
     margin-top: 20px;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
 }
