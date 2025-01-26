@@ -45,10 +45,18 @@ header {
 }
 
 .gallery-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-   
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 5px; 
+    background-color: #c5c9c5;
+}
+
+.gallery-section:hover {
+    border: 1px solid hsl(0, 0%, 20);
+}
+
+.gallery-section img {
+    
 }
 .contact {
     background: #333;
